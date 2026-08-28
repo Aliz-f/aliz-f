@@ -32,11 +32,11 @@ I am currently pursuing an **M.Sc. in Software Engineering and Information Syste
 
 ## What I Work On
 
-| Area                               | Focus                                                                                                              |
-| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| **Backend & Software Engineering** | Python services, REST APIs, asynchronous systems, data modelling, integrations, and reliability                    |
-| **Applied AI**                     | Machine learning systems, lightweight neural networks, and AI-enabled software                                     |
-| **Cybersecurity**                  | Intrusion detection, IoT security, vulnerability management, and secure system design                              |
+| Area | Focus |
+| --- | --- |
+| **Backend & Software Engineering** | Python services, REST APIs, asynchronous systems, data modelling, integrations, and reliability |
+| **Applied AI** | Machine learning systems, lightweight neural networks, and AI-enabled software |
+| **Cybersecurity** | Intrusion detection, IoT security, vulnerability management, and secure system design |
 | **Distributed & Research Systems** | Federated learning, edge/dew computing, privacy-aware distributed intelligence, and reproducible research software |
 
 ---
@@ -47,7 +47,7 @@ I am currently pursuing an **M.Sc. in Software Engineering and Information Syste
 
 **A Novel Intrusion Detection System for Dew Computing Environments Based on an Enhanced Federated Deep Learning Model**
 
-_The Journal of Supercomputing_, Springer Nature · 2026
+*The Journal of Supercomputing*, Springer Nature · 2026
 
 This work investigates lightweight intrusion detection for resource-constrained dew and IIoT environments using a **1D-CNN and federated learning**, enabling distributed model training without centralizing raw network traffic.
 
@@ -61,11 +61,21 @@ This work investigates lightweight intrusion detection for resource-constrained 
 
 ## Selected Engineering
 
+### ⚡ FastAPI Event Ticketing System
+
+**FastAPI · PostgreSQL · SQLAlchemy · Concurrency**
+
+A concurrency-safe event ticket booking API using transactional row-level locking to prevent over-booking under concurrent requests, with background processing, automated concurrency tests, and Dockerized development.
+
+[View repository →](https://github.com/Aliz-f/fastapi-event-ticketing)
+
+---
+
 ### 🧬 BrassicaLNC Research Platform
 
 **Backend Engineering · Databases · React · Research Software**
 
-A research software platform for organizing and serving biological data derived from **2,361 publicly available RNA-Seq libraries**, combining backend engineering, database design, scientific data management, and a responsive web interface.
+A research software platform for exploring **1,852 high-confidence Brassica napus lncRNAs**, derived from large-scale analysis of **2,361 publicly available RNA-Seq libraries**, combining backend engineering, biological data modelling, scientific data management, and a React-based interface.
 
 **Related repositories:**  
 [Backend API →](https://github.com/Aliz-f/BrassicaLnc-Backend) ·
@@ -74,11 +84,20 @@ A research software platform for organizing and serving biological data derived 
 
 ---
 
-### 🏭 CNC Process Management System
+### 🔎 Company Domain & Contact Enrichment Pipeline
 
-**Backend Development · Data Modelling · Operational Software**
+**Python · Data Pipelines · Web Processing · Reliability**
 
-A production-oriented process management system for CNC operations, covering inventory, material flow, workflow tracking, and operational data management.
+A retryable and idempotent multi-stage pipeline for resolving company domains, crawling websites, extracting structured contact information, and producing operational metrics with controlled AI-assisted processing.
+
+[View repository →](https://github.com/Aliz-f/company-domain-contact-enrichment)
+
+---
+
+## More Engineering
+
+- **[USA Route Fuel Optimizer](https://github.com/Aliz-f/usa-route-fuel-optimizer)** — Django API for route planning and cost-optimized fuel-stop selection.
+- **CNC Process Management System** — Operational backend software for inventory, material flow, workflow tracking, and CNC process management.
 
 ---
 
@@ -98,17 +117,17 @@ I also enjoy teaching programming and making technical knowledge more accessible
 
 ## Technical Focus
 
-**Core Engineering**  
-`Python` · `FastAPI` · `Django` · `Flask` · `PostgreSQL` · `Redis` · `Celery`
+**Backend & Data**  
+`Python` · `FastAPI` · `Django` · `PostgreSQL` · `Redis` · `Celery`
 
-**Machine Learning & Research**  
-`TensorFlow` · `scikit-learn` · `Pandas` · `NumPy` · `Federated Learning` · `CNN`
+**Machine Learning**  
+`TensorFlow` · `scikit-learn` · `Pandas` · `NumPy` · Federated Learning
 
-**Systems & Infrastructure**  
-`Docker` · `Linux` · `Nginx` · `Git` · `Neo4j`
+**Systems**  
+`Docker` · `Linux` · `Nginx` · `Git`
 
-**Security**  
-`Intrusion Detection` · `IoT Security` · `Vulnerability Management`
+**Research & Security**  
+Intrusion Detection · IoT Security · Distributed ML
 
 ---
 
@@ -116,11 +135,9 @@ I also enjoy teaching programming and making technical knowledge more accessible
 
 📍 Oulu, Finland · 🎓 M.Sc. Software Engineering and Information Systems — **University of Oulu**
 
-🔬 Exploring **reliable AI-enabled software, federated systems, and cybersecurity**
+🔬 Working across backend engineering, federated learning, applied AI, and cybersecurity
 
-💻 Building with **Python, backend systems, applied AI, and modern software infrastructure**
-
-🤝 Open to **software engineering, backend, applied AI, and research-oriented collaborations**
+🤝 Open to software engineering, applied AI, and research-oriented opportunities
 
 ---
 
