@@ -63,11 +63,14 @@ This work investigates lightweight intrusion detection for resource-constrained 
 
 ### 🧬 BrassicaLNC Research Platform
 
-**Backend Engineering · Databases · Research Software**
+**Backend Engineering · Databases · React · Research Software**
 
-A research software platform for organizing and serving biological data derived from **2,361 publicly available RNA-Seq libraries**, combining backend engineering, database design, and scientific data management.
+A research software platform for organizing and serving biological data derived from **2,361 publicly available RNA-Seq libraries**, combining backend engineering, database design, scientific data management, and a responsive web interface.
 
-[Explore project →](https://brassica.arfadaei.ir)
+**Related repositories:**  
+[Backend API →](https://github.com/Aliz-f/BrassicaLnc-Backend) ·
+[Frontend →](https://github.com/Aliz-f/BrassicaLnc-Frontend) ·
+[Deployment →](https://github.com/Aliz-f/BrassicaLnc-Website)
 
 ---
 
@@ -76,8 +79,6 @@ A research software platform for organizing and serving biological data derived 
 **Backend Development · Data Modelling · Operational Software**
 
 A production-oriented process management system for CNC operations, covering inventory, material flow, workflow tracking, and operational data management.
-
-[Explore project →](https://erp.arfadaei.ir)
 
 ---
 
