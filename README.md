@@ -90,7 +90,6 @@ I worked on the backend, database structure, server administration, and research
 
 [Backend API →](https://github.com/Aliz-f/BrassicaLnc-Backend) ·
 [Frontend →](https://github.com/Aliz-f/BrassicaLnc-Frontend) ·
-[Deployment →](https://github.com/Aliz-f/BrassicaLnc-Website)
 
 ---
 
