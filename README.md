@@ -2,12 +2,14 @@
 
 # Alireza Fadaei
 
-### Software Engineer · Applied AI & Security Researcher
+### Software Engineer · Backend Engineer
 
-**Python Backend · Applied AI · Cybersecurity · Federated & Distributed Systems**
+**Python · Node.js · Backend Systems · Applied AI · Cybersecurity**
 
-I build reliable software systems and research machine learning for  
-distributed, privacy-sensitive, and security-critical environments.
+I build backend systems, APIs, data-driven applications, and secure software,
+with research experience in federated learning, intrusion detection, and distributed AI.
+
+📍 Oulu, Finland · 🎓 M.Sc. Student at the University of Oulu
 
 [Website](https://arfadaei.ir) ·
 [LinkedIn](https://www.linkedin.com/in/aliz-f/) ·
@@ -18,137 +20,161 @@ distributed, privacy-sensitive, and security-critical environments.
 
 ---
 
-## Research ↔ Engineering
+## About Me
 
-My work sits at the intersection of **software engineering, applied artificial intelligence, and cybersecurity**.
+I am a **software and backend engineer** based in Oulu, Finland, working primarily with **Python and Node.js**.
 
-On the engineering side, I build backend services, APIs, data-driven systems, and infrastructure with a focus on maintainability, reliability, and clear system design.
+My experience includes backend APIs, SaaS platforms, security software, research-data systems, infrastructure, and production-oriented applications. I focus on building systems that are maintainable, reliable, and practical to operate.
 
-On the research side, I work with machine learning for distributed and security-sensitive environments, particularly **federated learning, intrusion detection, IoT/edge systems, and privacy-aware AI**.
+Alongside industry work, I am pursuing an **M.Sc. in Software Engineering and Information Systems at the University of Oulu**.
 
-I am currently pursuing an **M.Sc. in Software Engineering and Information Systems at the University of Oulu, Finland**, following a previous M.Sc. in Software Engineering focused on federated deep learning for intrusion detection.
+My research background includes **federated learning, intrusion detection, cybersecurity, and distributed machine learning**, with peer-reviewed work published in _The Journal of Supercomputing_.
 
 ---
 
 ## What I Work On
 
-| Area | Focus |
-| --- | --- |
-| **Backend & Software Engineering** | Python services, REST APIs, asynchronous systems, data modelling, integrations, and reliability |
-| **Applied AI** | Machine learning systems, lightweight neural networks, and AI-enabled software |
-| **Cybersecurity** | Intrusion detection, IoT security, vulnerability management, and secure system design |
-| **Distributed & Research Systems** | Federated learning, edge/dew computing, privacy-aware distributed intelligence, and reproducible research software |
+| Area                    | Focus                                                                                                   |
+| ----------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Backend Engineering** | APIs, backend services, business logic, data modelling, asynchronous processing, and integrations       |
+| **Applied AI**          | Machine learning integration, lightweight neural networks, AI-enabled software, and data-driven systems |
+| **Security**            | Intrusion detection, vulnerability management, IoT security, and security-aware software                |
+| **Distributed Systems** | Federated learning, distributed machine learning, privacy-sensitive systems, and research software      |
 
 ---
 
-## Featured Research
+# Selected Engineering Projects
 
-### Federated Intrusion Detection for Dew/IIoT Systems
+Selected projects demonstrating **end-to-end software ownership, backend engineering, system design, and deployment**.
 
-**A Novel Intrusion Detection System for Dew Computing Environments Based on an Enhanced Federated Deep Learning Model**
+## 🏭 CNC Process Management System
 
-*The Journal of Supercomputing*, Springer Nature · 2026
+**End-to-End Software Development · Backend Engineering · Data Modelling · Operational Software**
 
-This work investigates lightweight intrusion detection for resource-constrained dew and IIoT environments using a **1D-CNN and federated learning**, enabling distributed model training without centralizing raw network traffic.
+A production-oriented process management system for CNC operations, covering inventory, material flow, workstation processes, workflow tracking, and operational data management.
 
-**15-class classification:** 97.01% centralized accuracy · 96.67% federated accuracy
+I designed and built the system **from scratch end-to-end**, including the application architecture, backend logic, data model, workflows, and deployment.
 
-[Read the publication →](https://doi.org/10.1007/s11227-026-08314-x)  
-[Explore the federated implementation →](https://github.com/Aliz-f/edge-web-attack-detection-federated)  
-[Explore the centralized implementation →](https://github.com/Aliz-f/edge-web-attack-detection-centralized)
-
----
-
-## Selected Engineering
-
-### ⚡ FastAPI Event Ticketing System
-
-**FastAPI · PostgreSQL · SQLAlchemy · Concurrency**
-
-A concurrency-safe event ticket booking API using transactional row-level locking to prevent over-booking under concurrent requests, with background processing, automated concurrency tests, and Dockerized development.
-
-[View repository →](https://github.com/Aliz-f/fastapi-event-ticketing)
+**Live system:**  
+[erp.arfadaei.ir →](https://erp.arfadaei.ir)
 
 ---
 
-### 🧬 BrassicaLNC Research Platform
+## 🧠 Psychological Clinic CRM
 
-**Backend Engineering · Databases · React · Research Software**
+**End-to-End Software Development · Backend Engineering · Business Software · Workflow Management**
 
-A research software platform for exploring **1,852 high-confidence Brassica napus lncRNAs**, derived from large-scale analysis of **2,361 publicly available RNA-Seq libraries**, combining backend engineering, biological data modelling, scientific data management, and a React-based interface.
+A complete CRM and operational management system for a psychological clinic, built to centralize day-to-day clinical and administrative workflows.
 
-**Related repositories:**  
+The platform supports **appointment management, patient records, therapist scheduling, session management, and billing**, bringing core clinic operations into one structured system.
+
+I designed and built the application **from scratch end-to-end**, including the architecture, backend services, data model, business logic, workflow design, and deployment.
+
+**Live system:**  
+[psy.arfadaei.ir →](https://psy.arfadaei.ir)
+
+---
+
+## 🧬 BrassicaLNC Research Platform
+
+**Backend Engineering · Database Design · Research Software**
+
+A research-data platform for organizing and serving biological data derived from **2,361 publicly available RNA-Seq libraries**.
+
+I worked on the backend, database structure, server administration, and research-data organization.
+
+**Live platform:**  
+[brassica.arfadaei.ir →](https://brassica.arfadaei.ir)
+
+**Related repositories:**
+
 [Backend API →](https://github.com/Aliz-f/BrassicaLnc-Backend) ·
 [Frontend →](https://github.com/Aliz-f/BrassicaLnc-Frontend) ·
 [Deployment →](https://github.com/Aliz-f/BrassicaLnc-Website)
 
 ---
 
-### 🔎 Company Domain & Contact Enrichment Pipeline
+# Research
 
-**Python · Data Pipelines · Web Processing · Reliability**
+## 🔐 Federated Web Attack Detection
 
-A retryable and idempotent multi-stage pipeline for resolving company domains, crawling websites, extracting structured contact information, and producing operational metrics with controlled AI-assisted processing.
+**Federated Learning · Intrusion Detection · Cybersecurity · TensorFlow · Flower**
 
-[View repository →](https://github.com/Aliz-f/company-domain-contact-enrichment)
+A federated-learning-based intrusion-detection project for distributed and security-sensitive environments.
 
----
+I implemented and evaluated a lightweight **1D-CNN** using **Flower**, including experiments under both **IID and non-IID data distributions**, with the goal of enabling distributed detection without centralizing sensitive client data.
 
-## More Engineering
+[Explore the federated implementation →](https://github.com/Aliz-f/edge-web-attack-detection-federated)
 
-- **[USA Route Fuel Optimizer](https://github.com/Aliz-f/usa-route-fuel-optimizer)** — Django API for route planning and cost-optimized fuel-stop selection.
-- **CNC Process Management System** — Operational backend software for inventory, material flow, workflow tracking, and CNC process management.
-
----
-
-## Open Source & Teaching
-
-### 📚 Persian Computer Science Documentation
-
-**Open Source · Computer Science · Technical Education**
-
-An open-source effort to create high-quality Persian-language documentation for computer science, programming, and practical software development.
-
-I also enjoy teaching programming and making technical knowledge more accessible to learners.
-
-[View repository →](https://github.com/Aliz-f/persian-cs-docs)
+[Explore the centralized implementation →](https://github.com/Aliz-f/edge-web-attack-detection-centralized)
 
 ---
 
-## Technical Focus
+## 📄 Peer-Reviewed Publication
 
-**Backend & Data**  
-`Python` · `FastAPI` · `Django` · `PostgreSQL` · `Redis` · `Celery`
+### A Novel Intrusion Detection System for Dew Computing Environments Based on an Enhanced Federated Deep Learning Model
 
-**Machine Learning**  
-`TensorFlow` · `scikit-learn` · `Pandas` · `NumPy` · Federated Learning
+**Alireza Fadaei, Behrang Barekatain**
 
-**Systems**  
-`Docker` · `Linux` · `Nginx` · `Git`
+_The Journal of Supercomputing_, Springer Nature · 2026
 
-**Research & Security**  
-Intrusion Detection · IoT Security · Distributed ML
+The work proposes a lightweight CNN-based intrusion-detection approach integrated with federated learning for resource-constrained dew computing environments, with a focus on distributed detection without centralizing sensitive data.
+
+[Read the publication →](https://doi.org/10.1007/s11227-026-08314-x)
+
+[Springer →](https://link.springer.com/article/10.1007/s11227-026-08314-x)
 
 ---
 
-## Currently
+# Technical Focus
 
-📍 Oulu, Finland · 🎓 M.Sc. Software Engineering and Information Systems — **University of Oulu**
+### Backend Engineering
 
-🔬 Working across backend engineering, federated learning, applied AI, and cybersecurity
+`Python` · `Node.js` · `Django` · `Flask` · `FastAPI` · `REST APIs` · `Celery`
 
-🤝 Open to software engineering, applied AI, and research-oriented opportunities
+### Databases & Infrastructure
+
+`PostgreSQL` · `Redis` · `Neo4j` · `Docker` · `Nginx` · `Linux`
+
+### Applied AI & Machine Learning
+
+`TensorFlow` · `Scikit-learn` · `Pandas` · `NumPy` · `Federated Learning` · `CNNs`
+
+### Security & Distributed Systems
+
+`Intrusion Detection` · `Vulnerability Management` · `AI Security` · `IoT Security`
+
+### Engineering Practices
+
+`Git` · `Code Review` · `API Design` · `Technical Documentation` · `Agile Development`
+
+---
+
+# Current Focus
+
+📍 **Based in Oulu, Finland**
+
+🎓 Pursuing an **M.Sc. in Software Engineering and Information Systems at the University of Oulu**
+
+💻 Building **backend systems and APIs with Python and Node.js**
+
+🔐 Working across **software engineering, applied AI, cybersecurity, and distributed systems**
+
+🔬 Researching **federated learning, intrusion detection, and reliable AI-enabled software**
+
+🤝 Open to **software engineering, backend engineering, applied AI, research, and Master's thesis opportunities — on-site, hybrid, or remote**
 
 ---
 
 <div align="center">
 
-### Build useful systems. Ask useful questions.
+### Building reliable software informed by research.
 
-**Research informs my engineering. Engineering keeps my research grounded.**
+**Backend engineering first. AI and security where they add real value.**
 
-[arfadaei.ir](https://arfadaei.ir) ·
+[Portfolio](https://arfadaei.ir) ·
 [LinkedIn](https://www.linkedin.com/in/aliz-f/) ·
+[GitHub](https://github.com/aliz-f) ·
 [ORCID](https://orcid.org/0009-0007-1187-7288)
 
 </div>
