@@ -1,14 +1,24 @@
+<div align="center">
+
 # Alireza Fadaei
 
 ### Full-Stack Software Engineer
 
-React · FastAPI · Python · Node.js · Applied AI
+**React · FastAPI · Python · Node.js · Applied AI**
+
+Oulu, Finland · M.Sc. student at the University of Oulu
+
+[Portfolio](https://arfadaei.ir) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/aliz-f/) &nbsp;·&nbsp; [ORCID](https://orcid.org/0009-0007-1187-7288)
+
+</div>
+
+---
 
 I design and build full-stack software applications, from frontend interfaces and backend APIs to data models, deployment, and AI-powered automation. My work spans SaaS products, business management systems, scientific data platforms, and security-focused software.
 
 Based in Oulu, Finland, I am pursuing an M.Sc. in Software Engineering and Information Systems at the University of Oulu. My background in federated learning and cybersecurity research informs how I build and maintain software.
 
-[Portfolio](https://arfadaei.ir) · [LinkedIn](https://www.linkedin.com/in/aliz-f/) · [ORCID](https://orcid.org/0009-0007-1187-7288)
+[Projects](#featured-engineering-projects) · [Skills](#technical-skills) · [Research](#research-and-publications) · [Contact](#current-focus-and-contact)
 
 ## What I Build
 
@@ -21,29 +31,59 @@ Based in Oulu, Finland, I am pursuing an M.Sc. in Software Engineering and Infor
 
 ### Company Domain & Contact Enrichment
 
-A multi-phase Python pipeline that turns company records into validated domains and contact data through domain discovery, DNS/HTTP validation, website crawling, and email/phone extraction. Pydantic models carry structured data between stages. Optional AI-assisted resolution has a configurable usage cap; phase checkpoints support resuming and retrying work, with processing designed for idempotent reruns. Includes metrics, CSV/JSONL outputs, and Docker-based execution.
+*Data pipelines & AI automation* · `Python` `Pydantic` `Docker`
+
+A multi-phase pipeline that turns company records into validated domains and contact data.
+
+- **Discovery:** Candidate domains, DNS/HTTP validation, website crawling, and email/phone extraction.
+- **AI assistance:** Optional resolution with a configurable usage cap and structured Pydantic models.
+- **Operation:** Retryable phase checkpoints, processing designed for idempotent reruns, metrics, CSV/JSONL outputs, and Docker execution.
 
 [Source](https://github.com/Aliz-f/company-domain-contact-enrichment)
 
+---
+
 ### BrassicaLNC Research Platform
 
-A full-stack scientific data platform with a React search and exploration UI, Django REST APIs, and PostgreSQL models for transcript sequences, genomic annotations, and expression data. I developed frontend and backend features, designed research-data models, and managed data and server operations for a resource derived from 2,361 public RNA-Seq libraries. Docker and Nginx support backend deployment.
+*Full-stack scientific software* · `React` `Django` `PostgreSQL`
+
+A scientific data platform built around a resource derived from **2,361 public RNA-Seq libraries**. My work spans frontend and backend features, research-data models, and data and server operations.
+
+- **Interface:** Search and data exploration in React.
+- **Data & APIs:** Django REST APIs and PostgreSQL models for transcript sequences, genomic annotations, and expression data.
+- **Deployment:** Docker and Nginx for backend operation.
 
 [Live platform](https://brassica.arfadaei.ir/) · [Frontend](https://github.com/Aliz-f/BrassicaLnc-Frontend) · [Backend API](https://github.com/Aliz-f/BrassicaLnc-Backend) · [Deployment configuration](https://github.com/Aliz-f/BrassicaLnc-Backend/tree/master/deploy)
 
+---
+
 ### CNC Process Management System
 
-A full-stack application for inventory, material flow, workstation monitoring, and process tracking. I designed and built the system end to end, including the frontend, backend, data models, application architecture, operational workflows, and deployment.
+*Full-stack operational software · End-to-end ownership*
+
+A full-stack application for inventory, material flow, workstation monitoring, and process tracking.
+
+**My contribution:** Frontend, backend, data models, application architecture, operational workflows, and deployment, designed and built end to end.
 
 [Live application](https://erp.arfadaei.ir)
 
+---
+
 ### Psychological Clinic CRM
 
-A full-stack business application connecting appointment management, patient records, therapist schedules, sessions, and billing. I built the frontend, backend, data models, workflow logic, architecture, and deployment to bring day-to-day clinic operations into one system.
+*Full-stack business software · End-to-end ownership*
+
+A business application connecting appointment management, patient records, therapist schedules, sessions, and billing.
+
+**My contribution:** Frontend, backend, data models, workflow logic, architecture, and deployment, bringing day-to-day clinic operations into one system.
 
 [Live application](https://psy.arfadaei.ir)
 
+---
+
 ### Federated Web Attack Detection
+
+*Distributed research software* · `Python` `TensorFlow` `Flower`
 
 A research implementation of a lightweight 1D-CNN with TensorFlow and Flower for distributed intrusion detection. I evaluated IID and non-IID data partitions to study detection without centralising client data, alongside a centralized implementation for comparison.
 
@@ -65,7 +105,13 @@ A research implementation of a lightweight 1D-CNN with TensorFlow and Flower for
 - **M.Sc. Software Engineering and Information Systems** — University of Oulu, ongoing.
 - **M.Sc. Computer Science** — Islamic Azad University, Najafabad Branch, completed.
 
-**A Novel Intrusion Detection System for Dew Computing Environments Based on an Enhanced Federated Deep Learning Model** — Alireza Fadaei and Behrang Barekatain, *The Journal of Supercomputing*, 2026. Research on federated deep learning for intrusion detection in distributed, resource-constrained environments.
+### Selected publication
+
+**A Novel Intrusion Detection System for Dew Computing Environments Based on an Enhanced Federated Deep Learning Model**
+
+Alireza Fadaei and Behrang Barekatain · *The Journal of Supercomputing*, 2026
+
+Research on federated deep learning for intrusion detection in distributed, resource-constrained environments.
 
 [DOI: 10.1007/s11227-026-08314-x](https://doi.org/10.1007/s11227-026-08314-x)
 
