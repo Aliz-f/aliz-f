@@ -115,9 +115,7 @@ Research on federated deep learning for intrusion detection in distributed, reso
 
 [DOI: 10.1007/s11227-026-08314-x](https://doi.org/10.1007/s11227-026-08314-x)
 
-## Open Source and Teaching
-
-**Persian Computer Science Documentation** — a community-oriented project for computer science documentation in Persian. Its former public repository is currently unavailable.
+## Teaching
 
 I have taught programming and software development through hands-on projects in Iran TVTO vocational programmes, alongside curriculum work in programming, network security, and machine learning.
 
