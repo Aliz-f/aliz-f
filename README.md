@@ -1,180 +1,82 @@
-<div align="center">
-
 # Alireza Fadaei
 
-### Software Engineer · Backend Engineer
+### Full-Stack Software Engineer
 
-**Python · Node.js · Backend Systems · Applied AI · Cybersecurity**
+React · FastAPI · Python · Node.js · Applied AI
 
-I build backend systems, APIs, data-driven applications, and secure software,
-with research experience in federated learning, intrusion detection, and distributed AI.
+I design and build full-stack software applications, from frontend interfaces and backend APIs to data models, deployment, and AI-powered automation. My work spans SaaS products, business management systems, scientific data platforms, and security-focused software.
 
-📍 Oulu, Finland · 🎓 M.Sc. Student at the University of Oulu
+Based in Oulu, Finland, I am pursuing an M.Sc. in Software Engineering and Information Systems at the University of Oulu. My background in federated learning and cybersecurity research informs how I build and maintain software.
 
-[Website](https://arfadaei.ir) ·
-[LinkedIn](https://www.linkedin.com/in/aliz-f/) ·
-[ORCID](https://orcid.org/0009-0007-1187-7288) ·
-[Publication](https://doi.org/10.1007/s11227-026-08314-x)
+[Portfolio](https://arfadaei.ir) · [LinkedIn](https://www.linkedin.com/in/aliz-f/) · [ORCID](https://orcid.org/0009-0007-1187-7288)
 
-</div>
+## What I Build
 
----
+- **Full-stack applications:** React and modern JavaScript interfaces connected to Python/FastAPI and Node.js services, REST APIs, and application integrations.
+- **Data-driven systems:** PostgreSQL data models, database management, and operational workflows, with maintainable application architecture and clear API boundaries.
+- **Deployed software and AI automation:** Docker, Linux, Nginx, and cloud-hosted applications; data-enrichment pipelines and agentic workflows for practical business tasks.
+- **Research and security software:** Scientific data management, intrusion detection, and distributed machine learning.
 
-## About Me
+## Featured Engineering Projects
 
-I am a **software and backend engineer** based in Oulu, Finland, working primarily with **Python and Node.js**.
+### Company Domain & Contact Enrichment
 
-My experience includes backend APIs, SaaS platforms, security software, research-data systems, infrastructure, and production-oriented applications. I focus on building systems that are maintainable, reliable, and practical to operate.
+A multi-phase Python pipeline that turns company records into validated domains and contact data through domain discovery, DNS/HTTP validation, website crawling, and email/phone extraction. Pydantic models carry structured data between stages. Optional AI-assisted resolution has a configurable usage cap; phase checkpoints support resuming and retrying work, with processing designed for idempotent reruns. Includes metrics, CSV/JSONL outputs, and Docker-based execution.
 
-Alongside industry work, I am pursuing an **M.Sc. in Software Engineering and Information Systems at the University of Oulu**.
+[Source](https://github.com/Aliz-f/company-domain-contact-enrichment)
 
-My research background includes **federated learning, intrusion detection, cybersecurity, and distributed machine learning**, with peer-reviewed work published in _The Journal of Supercomputing_.
+### BrassicaLNC Research Platform
 
----
+A full-stack scientific data platform with a React search and exploration UI, Django REST APIs, and PostgreSQL models for transcript sequences, genomic annotations, and expression data. I developed frontend and backend features, designed research-data models, and managed data and server operations for a resource derived from 2,361 public RNA-Seq libraries. Docker and Nginx support backend deployment.
 
-## What I Work On
+[Live platform](https://brassica.arfadaei.ir/) · [Frontend](https://github.com/Aliz-f/BrassicaLnc-Frontend) · [Backend API](https://github.com/Aliz-f/BrassicaLnc-Backend) · [Deployment configuration](https://github.com/Aliz-f/BrassicaLnc-Backend/tree/master/deploy)
 
-| Area                    | Focus                                                                                                   |
-| ----------------------- | ------------------------------------------------------------------------------------------------------- |
-| **Backend Engineering** | APIs, backend services, business logic, data modelling, asynchronous processing, and integrations       |
-| **Applied AI**          | Machine learning integration, lightweight neural networks, AI-enabled software, and data-driven systems |
-| **Security**            | Intrusion detection, vulnerability management, IoT security, and security-aware software                |
-| **Distributed Systems** | Federated learning, distributed machine learning, privacy-sensitive systems, and research software      |
+### CNC Process Management System
 
----
+A full-stack application for inventory, material flow, workstation monitoring, and process tracking. I designed and built the system end to end, including the frontend, backend, data models, application architecture, operational workflows, and deployment.
 
-# Selected Engineering Projects
+[Live application](https://erp.arfadaei.ir)
 
-Selected projects demonstrating **end-to-end software ownership, backend engineering, system design, and deployment**.
+### Psychological Clinic CRM
 
-## 🏭 CNC Process Management System
+A full-stack business application connecting appointment management, patient records, therapist schedules, sessions, and billing. I built the frontend, backend, data models, workflow logic, architecture, and deployment to bring day-to-day clinic operations into one system.
 
-**End-to-End Software Development · Backend Engineering · Data Modelling · Operational Software**
+[Live application](https://psy.arfadaei.ir)
 
-A production-oriented process management system for CNC operations, covering inventory, material flow, workstation processes, workflow tracking, and operational data management.
+### Federated Web Attack Detection
 
-I designed and built the system **from scratch end-to-end**, including the application architecture, backend logic, data model, workflows, and deployment.
+A research implementation of a lightweight 1D-CNN with TensorFlow and Flower for distributed intrusion detection. I evaluated IID and non-IID data partitions to study detection without centralising client data, alongside a centralized implementation for comparison.
 
-**Live system:**  
-[erp.arfadaei.ir →](https://erp.arfadaei.ir)
+[Federated implementation](https://github.com/Aliz-f/edge-web-attack-detection-federated) · [Centralized implementation](https://github.com/Aliz-f/edge-web-attack-detection-centralized)
 
----
+## Technical Skills
 
-## 🧠 Psychological Clinic CRM
+| Area | Technologies and practices |
+| --- | --- |
+| **Frontend** | React, JavaScript |
+| **Backend** | Python, FastAPI, Node.js, Django, Flask, REST APIs |
+| **Databases & Infrastructure** | PostgreSQL, Redis, Docker, Linux, Nginx |
+| **Engineering** | Application Architecture, API Design, Git, Code Review, Technical Documentation |
+| **Applied AI** | AI Automation, Agentic Workflows, Pydantic, Machine Learning |
+| **Research & Security** | Federated Learning, Intrusion Detection, Cybersecurity |
 
-**End-to-End Software Development · Backend Engineering · Business Software · Workflow Management**
+## Research and Publications
 
-A complete CRM and operational management system for a psychological clinic, built to centralize day-to-day clinical and administrative workflows.
+- **M.Sc. Software Engineering and Information Systems** — University of Oulu, ongoing.
+- **M.Sc. Computer Science** — Islamic Azad University, Najafabad Branch, completed.
 
-The platform supports **appointment management, patient records, therapist scheduling, session management, and billing**, bringing core clinic operations into one structured system.
+**A Novel Intrusion Detection System for Dew Computing Environments Based on an Enhanced Federated Deep Learning Model** — Alireza Fadaei and Behrang Barekatain, *The Journal of Supercomputing*, 2026. Research on federated deep learning for intrusion detection in distributed, resource-constrained environments.
 
-I designed and built the application **from scratch end-to-end**, including the architecture, backend services, data model, business logic, workflow design, and deployment.
+[DOI: 10.1007/s11227-026-08314-x](https://doi.org/10.1007/s11227-026-08314-x)
 
-**Live system:**  
-[psy.arfadaei.ir →](https://psy.arfadaei.ir)
+## Open Source and Teaching
 
----
+**Persian Computer Science Documentation** — a community-oriented project for computer science documentation in Persian. Its former public repository is currently unavailable.
 
-## 🧬 BrassicaLNC Research Platform
+I have taught programming and software development through hands-on projects in Iran TVTO vocational programmes, alongside curriculum work in programming, network security, and machine learning.
 
-**Backend Engineering · Database Design · Research Software**
+## Current Focus and Contact
 
-A research-data platform for organizing and serving biological data derived from **2,361 publicly available RNA-Seq libraries**.
+Building full-stack applications with React, FastAPI, and Python, integrating AI automation, and improving application architecture and maintainability. Open to full-stack software engineering roles, Master's thesis opportunities, and research collaborations in Oulu or remotely.
 
-I worked on the backend, database structure, server administration, and research-data organization.
-
-**Live platform:**  
-[brassica.arfadaei.ir →](https://brassica.arfadaei.ir)
-
-**Related repositories:**
-
-[Backend API →](https://github.com/Aliz-f/BrassicaLnc-Backend) ·
-[Frontend →](https://github.com/Aliz-f/BrassicaLnc-Frontend) ·
-[Deployment →](https://github.com/Aliz-f/BrassicaLnc-Website)
-
----
-
-# Research
-
-## 🔐 Federated Web Attack Detection
-
-**Federated Learning · Intrusion Detection · Cybersecurity · TensorFlow · Flower**
-
-A federated-learning-based intrusion-detection project for distributed and security-sensitive environments.
-
-I implemented and evaluated a lightweight **1D-CNN** using **Flower**, including experiments under both **IID and non-IID data distributions**, with the goal of enabling distributed detection without centralizing sensitive client data.
-
-[Explore the federated implementation →](https://github.com/Aliz-f/edge-web-attack-detection-federated)
-
-[Explore the centralized implementation →](https://github.com/Aliz-f/edge-web-attack-detection-centralized)
-
----
-
-## 📄 Peer-Reviewed Publication
-
-### A Novel Intrusion Detection System for Dew Computing Environments Based on an Enhanced Federated Deep Learning Model
-
-**Alireza Fadaei, Behrang Barekatain**
-
-_The Journal of Supercomputing_, Springer Nature · 2026
-
-The work proposes a lightweight CNN-based intrusion-detection approach integrated with federated learning for resource-constrained dew computing environments, with a focus on distributed detection without centralizing sensitive data.
-
-[Read the publication →](https://doi.org/10.1007/s11227-026-08314-x)
-
-[Springer →](https://link.springer.com/article/10.1007/s11227-026-08314-x)
-
----
-
-# Technical Focus
-
-### Backend Engineering
-
-`Python` · `Node.js` · `Django` · `Flask` · `FastAPI` · `REST APIs` · `Celery`
-
-### Databases & Infrastructure
-
-`PostgreSQL` · `Redis` · `Neo4j` · `Docker` · `Nginx` · `Linux`
-
-### Applied AI & Machine Learning
-
-`TensorFlow` · `Scikit-learn` · `Pandas` · `NumPy` · `Federated Learning` · `CNNs`
-
-### Security & Distributed Systems
-
-`Intrusion Detection` · `Vulnerability Management` · `AI Security` · `IoT Security`
-
-### Engineering Practices
-
-`Git` · `Code Review` · `API Design` · `Technical Documentation` · `Agile Development`
-
----
-
-# Current Focus
-
-📍 **Based in Oulu, Finland**
-
-🎓 Pursuing an **M.Sc. in Software Engineering and Information Systems at the University of Oulu**
-
-💻 Building **backend systems and APIs with Python and Node.js**
-
-🔐 Working across **software engineering, applied AI, cybersecurity, and distributed systems**
-
-🔬 Researching **federated learning, intrusion detection, and reliable AI-enabled software**
-
-🤝 Open to **software engineering, backend engineering, applied AI, research, and Master's thesis opportunities — on-site, hybrid, or remote**
-
----
-
-<div align="center">
-
-### Building reliable software informed by research.
-
-**Backend engineering first. AI and security where they add real value.**
-
-[Portfolio](https://arfadaei.ir) ·
-[LinkedIn](https://www.linkedin.com/in/aliz-f/) ·
-[GitHub](https://github.com/aliz-f) ·
-[ORCID](https://orcid.org/0009-0007-1187-7288)
-
-</div>
+[Contact via portfolio](https://arfadaei.ir/#contact-section) · [LinkedIn](https://www.linkedin.com/in/aliz-f/)
