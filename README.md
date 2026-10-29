@@ -4,123 +4,86 @@
 
 ### Full-Stack Software Engineer
 
-**React · FastAPI · Python · Node.js · Applied AI**
+**Java · React · Python | Application Architecture · Agentic AI**
 
 Oulu, Finland · M.Sc. student at the University of Oulu
 
-[Portfolio](https://arfadaei.ir) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/aliz-f/) &nbsp;·&nbsp; [ORCID](https://orcid.org/0009-0007-1187-7288)
+[Portfolio](https://arfadaei.ir) · [LinkedIn](https://www.linkedin.com/in/aliz-f/) · [ORCID](https://orcid.org/0009-0007-1187-7288) · [Email](mailto:alizfadaei98@gmail.com)
+
+<img src="assets/engineering-focus.svg" alt="Engineering focus: full-stack products, distributed architecture, applied AI, and security" width="960" />
+
+[Experience](#experience-in-practice) · [Projects](#project-directory) · [Stack](#core-stack) · [Research](#research--education) · [Contact](#currently-learning--open-to)
 
 </div>
 
----
+I build software end to end—from React interfaces and Python APIs to Java endpoint applications, distributed-system design, and AI-enabled workflows. My experience spans enterprise security and patch management, B2B platforms, customer-deployed products, and scientific software.
 
-I design and build full-stack software applications, from frontend interfaces and backend APIs to data models, deployment, and AI-powered automation. My work spans SaaS products, business management systems, scientific data platforms, and security-focused software.
+## Experience in practice
 
-Based in Oulu, Finland, I am pursuing an M.Sc. in Software Engineering and Information Systems at the University of Oulu. My background in federated learning and cybersecurity research informs how I build and maintain software.
-
-[Projects](#featured-engineering-projects) · [Skills](#technical-skills) · [Research](#research-and-publications) · [Contact](#current-focus-and-contact)
-
-## What I Build
-
-- **Full-stack applications:** React and modern JavaScript interfaces connected to Python/FastAPI and Node.js services, REST APIs, and application integrations.
-- **Data-driven systems:** PostgreSQL data models, database management, and operational workflows, with maintainable application architecture and clear API boundaries.
-- **Deployed software and AI automation:** Docker, Linux, Nginx, and cloud-hosted applications; data-enrichment pipelines and agentic workflows for practical business tasks.
-- **Research and security software:** Scientific data management, intrusion detection, and distributed machine learning.
-
-## Featured Engineering Projects
-
-### Company Domain & Contact Enrichment
-
-*Data pipelines & AI automation* · `Python` `Pydantic` `Docker`
-
-A multi-phase pipeline that turns company records into validated domains and contact data.
-
-- **Discovery:** Candidate domains, DNS/HTTP validation, website crawling, and email/phone extraction.
-- **AI assistance:** Optional resolution with a configurable usage cap and structured Pydantic models.
-- **Operation:** Retryable phase checkpoints, processing designed for idempotent reruns, metrics, CSV/JSONL outputs, and Docker execution.
-
-[Source](https://github.com/Aliz-f/company-domain-contact-enrichment)
-
----
-
-### BrassicaLNC Research Platform
-
-*Full-stack scientific software* · `React` `Django` `PostgreSQL`
-
-A scientific data platform built around a resource derived from **2,361 public RNA-Seq libraries**. My work spans frontend and backend features, research-data models, and data and server operations.
-
-- **Interface:** Search and data exploration in React.
-- **Data & APIs:** Django REST APIs and PostgreSQL models for transcript sequences, genomic annotations, and expression data.
-- **Deployment:** Docker and Nginx for backend operation.
-
-[Live platform](https://brassica.arfadaei.ir/) · [Frontend](https://github.com/Aliz-f/BrassicaLnc-Frontend) · [Backend API](https://github.com/Aliz-f/BrassicaLnc-Backend) · [Deployment configuration](https://github.com/Aliz-f/BrassicaLnc-Backend/tree/master/deploy)
-
----
-
-### CNC Process Management System
-
-*Full-stack operational software · End-to-end ownership*
-
-A full-stack application for inventory, material flow, workstation monitoring, and process tracking.
-
-**My contribution:** Frontend, backend, data models, application architecture, operational workflows, and deployment, designed and built end to end.
-
-[Live application](https://erp.arfadaei.ir)
-
----
-
-### Psychological Clinic CRM
-
-*Full-stack business software · End-to-end ownership*
-
-A business application connecting appointment management, patient records, therapist schedules, sessions, and billing.
-
-**My contribution:** Frontend, backend, data models, workflow logic, architecture, and deployment, bringing day-to-day clinic operations into one system.
-
-[Live application](https://psy.arfadaei.ir)
-
----
-
-### Federated Web Attack Detection
-
-*Distributed research software* · `Python` `TensorFlow` `Flower`
-
-A research implementation of a lightweight 1D-CNN with TensorFlow and Flower for distributed intrusion detection. I evaluated IID and non-IID data partitions to study detection without centralising client data, alongside a centralized implementation for comparison.
-
-[Federated implementation](https://github.com/Aliz-f/edge-web-attack-detection-federated) · [Centralized implementation](https://github.com/Aliz-f/edge-web-attack-detection-centralized)
-
-## Technical Skills
-
-| Area | Technologies and practices |
+| Focus | What I do |
 | --- | --- |
-| **Frontend** | React, JavaScript |
-| **Backend** | Python, FastAPI, Node.js, Django, Flask, REST APIs |
-| **Databases & Infrastructure** | PostgreSQL, Redis, Docker, Linux, Nginx |
-| **Engineering** | Application Architecture, API Design, Git, Code Review, Technical Documentation |
-| **Applied AI** | AI Automation, Agentic Workflows, Pydantic, Machine Learning |
-| **Research & Security** | Federated Learning, Intrusion Detection, Cybersecurity |
+| **◈ Full-stack delivery** | Build React and JavaScript interfaces backed by Python services, REST APIs, validation, and relational data models. |
+| **◫ Distributed security systems** | At Fardaad (2022–2024), contributed to a hierarchical patch and vulnerability-management platform: Python services and queues, Java agents for Windows/Linux endpoints, CVE enrichment, patch matching, and a management interface. |
+| **✦ Applied AI workflows** | Develop structured enrichment and agentic workflows with web crawling, Pydantic models, optional LLM-assisted resolution, and restartable processing. |
+| **⌾ Reliable delivery** | Work across architecture, integration, and testing. Fardaad used GitLab CI/CD; GitHub Actions is part of my recent project delivery work. |
 
-## Research and Publications
+## Project directory
 
-- **M.Sc. Software Engineering and Information Systems** — University of Oulu, ongoing.
-- **M.Sc. Computer Science** — Islamic Azad University, Najafabad Branch, completed.
+| Project | What it demonstrates | Live demo / access | Source |
+| --- | --- | --- | --- |
+| **Matchline MVP** | Interactive football-media frontend with personalised journeys, predictions, local fan discussion, and a safe AI demo. React, TypeScript, Vite, Zustand, Leaflet. | [Open live demo](https://matchline.arfadaei.ir/) | [Repository](https://github.com/Aliz-f/matchline-mvp) |
+| **Company Domain & Contact Enrichment** | Python enrichment pipeline with deterministic validation, controlled crawling, Pydantic schemas, checkpoints, Docker, and optional capped LLM resolution. | No public demo | [Repository](https://github.com/Aliz-f/company-domain-contact-enrichment) |
+| **BrassicaLNC Research Platform** | Searchable scientific platform built from 2,361 public RNA-Seq libraries. I contributed React exploration views, Django REST APIs, PostgreSQL models, and operations. | [Open platform](https://brassica.arfadaei.ir/) | [Backend](https://github.com/Aliz-f/BrassicaLnc-Backend) · [Deployment](https://github.com/Aliz-f/BrassicaLnc-Backend/tree/master/deploy) |
+| **CNC Process Management System** | Customer-deployed operational software for inventory, material flow, workstation monitoring, and process tracking. | [Open application](https://erp.arfadaei.ir) — demo login provided | Private/proprietary |
+| **Psychological Clinic CRM** | Customer-deployed clinic software for appointments, clinician schedules, records, sessions, and billing. | [Open application](https://psy.arfadaei.ir) — demo login provided | Private/proprietary; no patient data published |
+| **Federated Intrusion Detection** | Lightweight 1D-CNN and federated-learning experiments for intrusion detection in dew/IIoT settings, including IID and non-IID data. | No public demo | [Federated repository](https://github.com/Aliz-f/edge-web-attack-detection-federated) · [Centralized baseline](https://github.com/Aliz-f/edge-web-attack-detection-centralized) |
 
-### Selected publication
+### Selected project notes
 
-**A Novel Intrusion Detection System for Dew Computing Environments Based on an Enhanced Federated Deep Learning Model**
+<details>
+<summary><strong>Matchline MVP</strong> — product prototype</summary>
 
-Alireza Fadaei and Behrang Barekatain · *The Journal of Supercomputing*, 2026
+An interactive football-media prototype built for the fan journey rather than the scoreboard alone. It deliberately uses fictional/local data and does not represent a production sports-data or payment service.
 
-Research on federated deep learning for intrusion detection in distributed, resource-constrained environments.
+</details>
 
-[DOI: 10.1007/s11227-026-08314-x](https://doi.org/10.1007/s11227-026-08314-x)
+<details>
+<summary><strong>Company Domain &amp; Contact Enrichment</strong> — AI-assisted data workflow</summary>
+
+The pipeline resolves candidate domains, validates them through DNS/HTTP checks, crawls resolved sites for contact data, and can use LLM assistance within a strict cap. Phase checkpoints make interrupted runs recoverable and idempotent.
+
+</details>
+
+<details>
+<summary><strong>Customer products</strong> — end-to-end ownership</summary>
+
+For both the CNC system and clinic CRM, I owned frontend/backend implementation, data models, workflow logic, architecture, and deployment. The applications are deployed for customers; source is intentionally not public.
+
+</details>
+
+## Core stack
+
+| Area | Tools and practices |
+| --- | --- |
+| **Languages & frontend** | Java, Python, JavaScript, React, HTML, CSS |
+| **Backend & APIs** | FastAPI, Django, Flask, REST APIs, Pydantic |
+| **Data & infrastructure** | PostgreSQL, Redis, Docker, Linux, Nginx |
+| **Architecture & security** | Distributed systems, modular service design, queue-based processing, secure client-server communication, testing |
+| **AI-assisted engineering & delivery** | LLM APIs, agentic workflows, web crawling, Codex, Claude Code, GitLab CI/CD, GitHub Actions |
+
+## Research & education
+
+**Published research** — *A Novel Intrusion Detection System for Dew Computing Environments Based on an Enhanced Federated Deep Learning Model*, *The Journal of Supercomputing* (2026). [DOI: 10.1007/s11227-026-08314-x](https://doi.org/10.1007/s11227-026-08314-x)
+
+- **M.Sc., Software Engineering and Information Systems** — University of Oulu, Finland (2026–Present)
+- **M.Sc., Software Engineering** — Azad University, Najafabad Branch, Iran (2022–2025)
 
 ## Teaching
 
-I have taught programming and software development through hands-on projects in Iran TVTO vocational programmes, alongside curriculum work in programming, network security, and machine learning.
+I taught programming and software development through hands-on projects in Iran TVTO vocational programmes, alongside curriculum work in programming, network security, and machine learning.
 
-## Current Focus and Contact
+## Currently learning & open to
 
-Building full-stack applications with React, FastAPI, and Python, integrating AI automation, and improving application architecture and maintainability. Open to full-stack software engineering roles, Master's thesis opportunities, and research collaborations in Oulu or remotely.
+I am open to full-stack or backend engineering opportunities, applied-AI work, and distributed-systems roles in Finland and across the EU.
 
-[Contact via portfolio](https://arfadaei.ir/#contact-section) · [LinkedIn](https://www.linkedin.com/in/aliz-f/)
+[Portfolio](https://arfadaei.ir) · [LinkedIn](https://www.linkedin.com/in/aliz-f/) · [Contact via portfolio](https://arfadaei.ir/#contact-section) · [Email](mailto:alizfadaei98@gmail.com)
