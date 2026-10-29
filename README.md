@@ -2,6 +2,10 @@
 
 **Full-Stack Software Engineer | Java · React · Python | Applied AI, Secure Distributed Systems & Research**
 
+<p align="center">
+  <img src="assets/engineering-map.svg" width="720" alt="Engineering focus: full-stack delivery, applied AI workflows, secure systems, and reproducible research." />
+</p>
+
 Based in Oulu, Finland. I am an M.Sc. student in Software Engineering and Information Systems at the University of Oulu (2026–present), with an earlier M.Sc. in Software Engineering from Azad University, Najafabad Branch. My work brings together full-stack delivery, applied AI, cybersecurity and distributed systems: from Java endpoint agents and React/Python services to reproducible intrusion-detection experiments. I have delivered industry software across security platforms, SaaS and scientific data systems, and my federated-learning work has appeared in *The Journal of Supercomputing*.
 
 ## What I build
@@ -39,6 +43,11 @@ My research code covers federated and centralised intrusion detection on Edge-II
 ### TV Advertisement Scheduling Optimisation (2024)
 
 This one research collaboration supported a master's thesis project at Sharif University of Technology, Tehran; it was not a Sharif degree, appointment or my own Sharif thesis. The public code is intentionally split into a navigable pipeline:
+
+```text
+Synthetic instances  →  Exact optimisation  →  Search alternatives
+Data generator       →  MILP / CPLEX         →  NSGA-II · GA · SA · Tabu
+```
 
 1. [**Synthetic data generator**](https://github.com/Aliz-f/tv-ad-scheduling-data-generator) creates constrained scheduling instances: breaks, budgets, reach targets, release/deadline windows and advertiser conflicts.
 2. [**MILP model**](https://github.com/Aliz-f/tv-ad-scheduling-milp-model) consumes those instances in Python with DOcplex/IBM CPLEX to seek exact solutions subject to capacity, timing and allocation constraints.
